@@ -6,14 +6,14 @@
     >
       Dark mode: {{ darkModeState }}
     </SwitchButton>
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img alt="Vue logo" src="../assets/logo.png">
     <HelloToDo msg="Welcome to Bancho`s First Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloToDo from './components/HelloToDo.vue'
-import SwitchButton from './components/SwitchButton.vue'
+import HelloToDo from './HelloToDo/HelloToDo.vue'
+import SwitchButton from '../components/SwitchButton.vue'
 
 export default {
   name: 'App',
