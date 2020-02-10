@@ -7,7 +7,8 @@
       Dark mode: {{ darkModeState }}
     </SwitchButton>
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloToDo msg="Welcome to Bancho`s First Vue.js App"/>
+    <h1>Welcome to Bancho`s First Vue.js TODO (BOOORING) App with (not so boring) Dark Mode</h1>
+    <HelloToDo />
   </div>
 </template>
 
